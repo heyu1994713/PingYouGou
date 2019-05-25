@@ -76,9 +76,19 @@
 		<groupId>javax.servlet</groupId>
 		<artifactId>servlet-api</artifactId>		
 		<scope>provided</scope>
-	</dependency> 
- 
-  </dependencies>
+	</dependency>
+
+	<dependency>
+		<groupId>com.pingyougou</groupId>
+		<artifactId>pingyougou-dao</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</dependency>
+	<dependency>
+		<groupId>com.pingyougou</groupId>
+		<artifactId>pingyougou-sellergoods-interface</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</dependency>
+    </dependencies>
   
   <build>  
 	  <plugins>	     
